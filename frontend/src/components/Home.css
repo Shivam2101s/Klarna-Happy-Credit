@@ -78,13 +78,16 @@
   border-radius: 30px;
   transition: 0.6s;
   font-size: 18px;
-  border: 3px solid #367191;
+
+  border: none;
+  outline: none;
+  background-color: white;
+  /* border: 3px solid #367191; */
 }
 #featured:hover {
-  border: 3px solid white;
   background-color: #f0f1f1;
 }
-#featured option{
+#featured option {
   font-size: 16px;
 }
 #featured_inner {
@@ -100,7 +103,7 @@
   grid-gap: 2%;
   margin-top: 40px;
   padding-bottom: 200px;
-  margin-left:20px ;
+  margin-left: 20px;
 }
 .product_image {
   width: 100%;
