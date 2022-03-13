@@ -1,0 +1,117 @@
+#home_container {
+    margin: 70px 5%;
+  }
+  #top {
+    text-align: left;
+  }
+  #heading {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 30px;
+  }
+  #sentence {
+    margin-top: -20px;
+  }
+  
+  #bottom {
+    display: flex;
+    margin-top: 90px;
+  }
+  #bottom_left {
+    width: 23%;
+    text-align: left;
+  }
+  #bottom_right {
+    width: 77%;
+  }
+  #category {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .category {
+    color: rgb(112, 112, 112);
+  }
+  .category:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .see_all:hover {
+    cursor: pointer;
+  }
+  #filter {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .type_discount {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .inputs {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    transform: scale(1.5);
+    border: 1px;
+  }
+  .labels {
+    font-size: 17px;
+    color: rgb(97, 95, 95);
+  }
+  
+  #search_box {
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #total_item {
+    display: flex;
+    justify-content: space-between;
+  }
+  #total_item > p {
+    font-weight: bold;
+  }
+  #featured {
+    padding: 0px 50px;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+  #featured:hover {
+    background-color: #f0f1f1;
+  }
+  #featured_title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #featured_inner {
+    position: absolute;
+    right: 6%;
+    background-color: white;
+    width: 140px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  #all_products {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 30px;
+    margin-top: 40px;
+  }
+  .product_container {
+    /* border: 1px solid black; */
+    text-align: left;
+  }
+  .product_image {
+    width: 100%;
+    height: 270px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    transition: 0.3s;
+  }
+  .product_image:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .product_price {
+    margin-top: -15px;
+  }
+  
