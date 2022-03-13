@@ -18,7 +18,7 @@ export const Home = () => {
           console.log("res", res);
         });
     } catch (err) {
-        console.log("Error:", err);
+      console.log("Error:", err);
     }
   };
 
@@ -107,20 +107,31 @@ export const Home = () => {
           <input id="search_box" type="text" placeholder="Search"></input>
           <hr></hr>
           <div id="total_item">
-            <p>20 items</p>
-            
+            <p>{data.length} deals</p>
 
-
-            </div>
+            <select name="featured" id="featured">
+              <option value="featured">
+                Featured
+              </option>
+              <option value="atoz">A-Z</option>
+              <option value="newest">Newest</option>
+            </select>
           </div>
+
           <div id="all_products">
             {data.map((e, i) => (
-              <div className="product_container">
+              <div key={i} className="product_container">
                 <img className="product_image" src={e.image} alt="#"></img>
-                <p className="product_name">
-                  <b>{e.title}</b>
-                </p>
-                <p className="product_price">₹{e.price}</p>
+                <div className="discount_div">
+                  <p>Save</p>
+                  <p className="percent">{e.discount}%</p>
+                </div>
+                <div className="product_details">
+                  <p className="company_name">
+                    <b>{e.company}</b>
+                  </p>
+                  <p className="product_des">{e.description}</p>
+                </div>
               </div>
             ))}
           </div>

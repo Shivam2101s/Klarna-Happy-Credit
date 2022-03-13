@@ -1,6 +1,7 @@
 #navbar_container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border-bottom: 1px solid rgb(247, 238, 238);
   }
@@ -10,7 +11,7 @@
     justify-content: center;
   }
   #image_icon {
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
   }
   #menu_icons {
