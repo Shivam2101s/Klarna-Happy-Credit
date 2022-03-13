@@ -1,4 +1,4 @@
-# Klarna-Happy-Credit
+# Klarna | Beast deals, coupons
 
 ## Deployment Link 
 
